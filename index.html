@@ -288,6 +288,17 @@
             .footer-content { flex-direction:column; text-align:center; } section { padding:70px 1.5rem; }
             .cursor, .cursor-follower { display:none; }
         }
+        .profile-photo {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+
+
+
         @media (max-width:480px) { .hero-stats { flex-direction:column; align-items:center; gap:1rem; } .stat-divider { display:none; } }
     </style>
 </head>
@@ -377,7 +388,9 @@
                     <div class="ring-inner"></div>
                     <div class="profile-img-wrapper">
                         <div class="profile-img-inner">
-                            <span class="profile-initials">RC</span>
+                            <!-- <span class="profile-initials">RC</span> -->
+                            <img src="/best.jpeg" alt="Rishu Chauhan" class="profile-photo">
+                        
                         </div>
                     </div>
                     <div class="floating-badge badge-java"><i class="fab fa-java"></i> Java</div>
